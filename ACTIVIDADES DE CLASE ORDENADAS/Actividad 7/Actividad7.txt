@@ -1,0 +1,61 @@
+
+ALGORITMO 1:
+
+s=initialize;
+elemento=0;
+
+if(empty(s)){
+
+print<< "LA PILA ESTA VACIA";
+
+}
+else
+{
+	pop(s);
+		if(empty(s)){
+		
+		print<<"La pila solo tiene 1 elemento";
+		
+		}
+		else{
+
+		elemento=pop(s);
+
+		print<< elemento
+		}
+}
+
+
+
+ALGORITMO 2:
+
+s=initialize;
+elemento1=0;
+elemento2=0;
+
+if(empty(s)){
+
+print<< "LA PILA ESTA VACIA";
+
+}
+
+else
+{
+	elemento1=pop(s);
+		if(empty(s)){
+		
+		print<<"La pila solo tiene 1 elemento";
+		push(s, elemento1);
+		
+		}
+		else{
+
+		elemento2=top(s);
+		push(s, elemento1);
+
+		print<< elemento2;
+		}
+}
+
+
+
