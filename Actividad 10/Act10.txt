@@ -1,0 +1,21 @@
+
+RODRIGO ERNESTO MEJIA GALEA 00037119
+
+EJERCICIO 1:
+
+	a-b/(c*d$e)
+
+>> a-b/(c*de$)
+>> a-b/(cde$*)
+>> a-b(cde$*)/
+>> ab(cde$*)/-
+>> abcde$*/-
+
+EJERCICIO 2:
+
+	((a+b)*c-(d-e))$(f+g)
+
+>> ((ab+)*c-(de-))$(fg+)
+>> ((ab+)c*(de-)-)$(fg+)
+>> ((ab+)c*(de-)-)(fg+)$
+>> ab+c*de--fg+$
