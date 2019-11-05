@@ -1,0 +1,58 @@
+ARBOL 1:
+
+Raiz: A.
+Ramas: B, C, D, E.
+Hojas: G, H, I
+
+Niveles de Nodos:
+-Nivel 0: A.
+-Nivel 1: B, C.
+-Nivel 2: D, E, F.
+-Nivel 3: G, H, I.
+
+Profundidad: 3.
+Peso: 9.
+Orden: 2.
+
+SUB-ARBOL C:
+Raiz: C.
+Ramas: E.
+Hojas: H, I, F.
+
+NO ES ESTRICTO.
+
+RECORRIDOS:
+Pre-Orden: A, B, D, G, C, E, H, I, F.
+Post-Orden: G, D, B, H, I, E, F, C, A.
+In-Orden: D, G, B, H, E, I, C, F, A.
+
+
+
+ARBOL 2:
+
+Raiz: A.
+Ramas: B, C, D, E, F, H.
+Hojas: I, J, G, K, L.
+
+Niveles de Nodos:
+-Nivel 0: A.
+-Nivel 1: B
+-Nivel 2: C, D.
+-Nivel 3: E, F, G, H.
+-Nivel 4: I, J, K, L
+
+Profundidad: 4.
+Peso: 12.
+Orden: 2.
+
+SUB-ARBOL D:
+Raiz: D.
+Ramas: H.
+Hojas: G, K, L.
+
+Es ESTRICTO.
+
+RECORRIDOS:
+Pre-Orden: A, B, C, E, I, F, J, D, G, H, K, L.
+Post-Orden: I, E, J, F, C, B, G, K, L, H, D, A.
+In-Orden: E, I, C, F, J, B, G, D, K, H, L, A.
